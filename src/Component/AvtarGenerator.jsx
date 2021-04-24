@@ -60,7 +60,7 @@ const AvtarGenerator = () => {
     const canvas = document.getElementById("canvas");
     const url = canvas.toDataURL("image/png");
     const link = document.createElement("a");
-    link.download = "filename.png";
+    link.download = "Avtar.png";
     link.href = url;
     link.click();
   };
