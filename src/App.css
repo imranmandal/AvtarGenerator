@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.avtar {
+  text-align: center;
+}
+
+canvas {
+  border: 0;
+}
+
+.avtar-container {
+  height: 90vh;
+}
+
+.generateBtn{
+  height: 10vh;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  background-color: #f56ae0;
+  border: none;
+  cursor: pointer;
+  outline: hidden;
+}
+/* .generateBtn button:hover{
+
+} */
+
+.downloadBtn{
+  height: 10vh;
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: hidden;
+}
+
+/* FOOTER */
+
+.footer {
+  color: #fff;
+  background-color: #F92FDA;
+}
+
+.socials {
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  line-height: 50px;
+  margin: 5px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.fb{
+  color: #3b5998;
+}
+.insta{
+  color: #cd486b;
+}
+.twt{
+  color: #00acee;
+}
+
+.socials:hover{
+  transform: scale(1.4);
+}
+
+
+
+
+
+@media (min-width: 500px) {
+  canvas {
+    width: fit-content;
+    margin: auto
+  }
+}
