@@ -16,7 +16,7 @@ const AvtarGenerator = () => {
 
     // MOUTH
     const avtMouth = new Image();
-    const avtMouthNum = Math.floor(Math.random() * 5) + 1;
+    const avtMouthNum = Math.floor(Math.random() * 7) + 1;
     const avtMouthName = "images/mouth" + avtMouthNum + ".png";
     avtMouth.src = avtMouthName;
 
